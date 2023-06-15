@@ -1,0 +1,345 @@
+/* burger */
+.burger-menu {
+    display: none;
+    width: 98%;
+    height: min-content;
+    background-color: grey;
+    border-radius: 10px;
+    border: 2px solid white;
+    position: absolute;
+    z-index: 1;
+    top: 1%;
+    left: 1%;
+    right: 1%;
+    color: #1e1e20;
+    cursor: pointer;
+}
+
+.burger-menu__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.burger-menu__btn_close {
+    margin: 3% 0;
+    width: 5%;
+    height: 5%;
+    cursor: pointer;
+}
+.burger-menu__input {
+    width: 20%;
+    height: 15%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.burget-menu__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    color: #1e1e20;
+}
+
+/* burger */
+.navbar__btn_burger {
+    display: none;
+}
+.navbar {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar__list {
+    width: 50%;
+}
+.navbar__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+.navbar__list :hover {
+    color: blue;
+    cursor: pointer;
+}
+.navbar__contact {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.navbar__btn_conatct {
+    width: 30%;
+    background-color: lightgoldenrodyellow;
+    padding: 1%;
+    border: 2px solid darkmagenta;
+    border-radius: 20%;
+    font-weight: bold;
+}
+.navbar__btn_conatct:hover {
+    animation: pulsing 2s 2;
+}
+
+@keyframes pulsing {
+    0% {
+        
+    }
+    50% {
+        font-size: 20px;
+    }
+    100% {
+        
+    }
+}
+.header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(239, 239, 203);
+}
+.header__left_img {
+    margin: 0;
+    padding: 0;
+    width: 30%;
+}
+.header__left_img img {
+    width: 70%;
+}
+.header_right {
+    width: 70%;
+    text-align: center;
+}
+.header__title {
+    margin: 0 0 3% 0;
+    padding: 0;
+    animation: pulsing 2s 3;
+}
+@keyframes pulsing {
+    0% {
+        font-size: 50px;
+    }
+    50% {
+        
+    }
+    100% {
+        
+    }
+}
+.header__name {
+    margin: 0;
+    padding: 0;
+    animation: pulsing 2s 2;
+}
+@keyframes pulsing {
+    0% {
+        
+    }
+    50% {
+        font-size: 50px;
+    }
+    100% {
+        
+    }
+}
+.content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.content__left {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: rgb(231, 231, 221);
+}
+.content__left_info-bs {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+    text-decoration-line: underline;
+}
+.content__left_info_list {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+    list-style-type: none;
+    line-height: 1.5;
+    align-items: center;
+}
+.content__left_edu-head {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+    text-decoration-line: underline;
+}
+.content__left_edu_list {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+    list-style-type: none;
+    line-height: 1.5;
+    align-items: center;
+}
+.content__left_edu_list h3,h4 {
+    margin: 0;
+    padding: 0;
+}
+.content__right_exp_list-exp h6 {
+    font-size: 16px;
+    color: darkblue;
+}
+.content__right_exp_list-exp {
+    border-top: 2px solid darkgoldenrod;
+}
+.content__left_edu_list-college {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content__left_skills {
+    margin: 0;
+    padding: 0;
+}
+.content__left_skills-hard-head {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+    text-decoration-line: underline;
+}
+.content__left_skills-hard_list {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+    list-style-type: none;
+    line-height: 1.5;
+    align-items: center;
+}
+.content__left_skills-soft-head {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+    text-decoration-line: underline;
+}
+.content__left_skills-soft_list {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+    list-style-type: none;
+    line-height: 1.5;
+    align-items: center;
+}
+.content__left_hobby-head {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+    text-decoration-line: underline;
+}
+.content__left_hobby_list {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+    list-style-type: none;
+    line-height: 1.5;
+    align-items: center;
+}
+.content__left_lg-head {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+    text-decoration-line: underline;
+}
+.content__left_lg_list {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+    list-style-type: none;
+    line-height: 1.5;
+    align-items: center;
+}
+.content__left_lg_list img {
+    width: 5%;
+}
+.content__right {
+    margin: 0;
+    padding: 0;
+    width: 75%;
+    background-color: rgb(250, 250, 245);
+}
+.content__right_bio_head {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+    text-decoration-line: underline;
+}
+.content__right_bio_content {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+}
+.content__right_exp_head {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 20px;
+    text-decoration-line: underline;
+}
+.content__right_exp_list-exp h3,h4,h5 {
+    margin: 0;
+    padding: 0;
+}
+.content__right_exp_list {
+    margin: 0 0 40px 0;
+    padding: 0 0 0 40px;
+    list-style-type: none;
+    line-height: 1.5;
+    align-items: center;
+}
+.footer {
+    width: 100%;
+    background-color: rgb(239, 239, 203);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer__text {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-weight: 400;
+    color: darkgrey;
+}
+.footer__linkedin {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__linkedin img {
+    /* margin: 2% 0; */
+    width: 7%;
+}
+.footer__contact {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foooter__btn_conatct {
+    width: 30%;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid darkmagenta;
+    border-radius: 20%;
+    font-weight: bold;
+}
+.footer__btn_conatct:hover {
+    animation: expanding 2s 2;
+}
+@keyframes expanding {
+    0% {
+        background-color: green;
+    }
+    50% {
+        font-size: 20px;
+    }
+    100% {
+        background-color: yellowgreen;
+    }
+}

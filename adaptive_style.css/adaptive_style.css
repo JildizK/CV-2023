@@ -1,0 +1,197 @@
+@media all and (max-width: 750px)  {
+    .header__title {
+        font-size: 1.5em;
+    }
+    .content {
+        flex-direction: column-reverse;
+    }
+    .content__right {
+        width: 100%;
+    }
+    .content__left {
+        width: 100%;
+        text-align: start;
+    }
+    .content__left_info_list {
+        display: flex;
+        justify-content: space-around;
+        text-align: start;
+        flex-wrap: wrap;
+        padding: 0 20px 0 20px;
+        
+    }
+    .content__left_info_list li {
+        width: 40%;
+    }
+    .content__left_skills-hard_list {
+        display: flex;
+        justify-content: space-around;
+        text-align: start;
+        flex-wrap: wrap;
+        padding: 0 20px 0 20px;
+    }
+    .content__left_skills-hard_list li {
+        width: 25%;
+    }
+    .content__left_skills-hard_list :last-child {
+        display: none;
+    }
+    .content__left_skills-soft_list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 0 20px 0 20px;
+    }
+    .content__left_skills-soft_list li {
+        width: 25%;
+    }
+    .content__left_skills-soft_list :last-child {
+        display: none;
+    }
+    .content__left_hobby_list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 0 20px 0 20px;
+    }
+    .content__left_hobby_list li {
+        width: 25%;
+    }
+    .content__left_lg_list li {
+        width: 20%;
+    }
+    .content__left_lg_list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 0 20px 0 20px;
+    }
+}
+@media all and (max-width: 700px) {
+    .navbar__btn_conatct{
+        width: 50%;
+    }
+    .navbar__list {
+        width: 85%;
+    }
+    .navbar__list li {
+        width: 25%;
+    }
+    .content__right_bio_content {
+        padding: 0 20px 0 20px;
+    }
+    .content__left_skills-soft_list li {
+        width: 50%;
+    }
+    .content__left_lg_list img {
+        width: 15%;
+    }
+    .footer__linkedin img {
+        width: 14%;
+    }
+}
+@media all and (max-width: 600px) {
+    .header__name {
+        font-size: 1em;
+    }  
+}
+@media all and (max-width: 500px) {
+    .navbar__btn_conatct {
+        width: 66%;
+    }
+    .header__title {
+        margin: 0 0 3% 0;
+        padding: 0;
+        animation: pulsing 2s 3;
+    }
+    @keyframes pulsing {
+        0% {
+            font-size: 20%;
+        }
+        50% {
+            
+        }
+        100% {
+            
+        }
+    }
+    .header__name {
+        margin: 0;
+        padding: 0;
+        animation: pulsing 2s 2;
+    }
+    @keyframes pulsing {
+        0% {
+            
+        }
+        50% {
+            font-size: 20px;
+        }
+        100% {
+            
+        }
+    }
+    .content__left_info_list {
+        flex-direction: column;
+    }
+    .content__left_info_list li {
+        width: 100%;
+    }
+    .footer__text {
+        font-size: 7px;
+    }
+}
+@media all and (max-width: 450px) {
+    .header__title {
+        font-size: 1em;
+    }
+    .header__name {
+        font-size: 0.7em;
+    }
+}
+@media all and (max-width: 450px) {
+    .navbar__list {
+        display: none;
+    }
+    .navbar__btn_burger {
+        display: block;
+        cursor: pointer;
+        background-color: rgb(237, 237, 147);
+        width: 10%;
+        align-self: start;
+        cursor: pointer;
+    }
+    .content__left_skills-hard_list li {
+        width: 50%;
+    }
+}
+@media all and (max-width: 350px) {
+    .content__left_lg_list li {
+        width: 50%;
+    }
+    .content__left_lg_list img {
+        width: 9%;
+    }
+    .footer__text {
+        font-size: 5px;
+    }
+    .footer__btn_contact {
+        font-size: 7px;
+    }
+    .navbar__btn_conatct:hover {
+        animation: pulsing 2s 2;
+    }
+    
+    @keyframes pulsing {
+        0% {
+            
+        }
+        50% {
+            font-size: 10px;
+        }
+        100% {
+            
+        }
+    }
+
+}
